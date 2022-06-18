@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #Support{
+          display: flex;
+          justify-content: end;
+          gap: 30px;
+          font-size: 22px;
+          
+        }
+        #navbar{
+            display: flex;
+            align-items: center;
+        }
+        #signfav{
+           display: flex;
+           gap: 30px;
+           /* justify-content:center; */
+           align-items: center;
+           height: 50px;
+           /* border: 1px solid rgb(23, 21, 19); */
+        }
+       #navbar{
+        height: 120px;
+        /* border: 1px solid rgb(23, 21, 19); */
+        width: 100%;
+        justify-content: space-between;
+       }
+       #gearimg{
+        height:60px;
+       }
+       #searchbar{
+        height: 30px;
+        width:500px;
+        border:4px solid rgb(250, 225, 6);
+        border-radius: 10px;
+       }
+       .SIFA{
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+       }
+       #savkuch{
+        margin-right: 50px;
+       }
+       #dron{
+        display: flex;
+        gap: 80px;
+        margin-left: 70px;
+       }
+       #categ{
+        display: flex;
+        /* height: 50px; */
+        /* gap:200px */
+        /* justify-content: space-between; */
+       }
+       #categ{
+            width: 1426px;
+            border: 1px solid yellow;
+            /* margin-right: 2px; */
+        }
+        .namo:hover{
+            font-weight: 800;
+        }
+       #categ>div>#p1{
+        /* width:65px; */
+        font-size: 26px;
+        text-align: center;
+       }
+       #categ>p{
+        font-size: 26px;
+       }
+       #category{
+        height:400px;
+        /* border: 1px solid rgb(23, 21, 19); */
+        width:260px;
+        background-color: rgb(235, 243, 243);
+        /* position: absolute; */
+        /* margin-right: 40px; */
+       }
+       #category>p{
+        font-size: 20px;
+        line-height:29px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+       #div1>#p1{
+        font-size: 26px;
+        /* margin-left: -18px; */
+       }
+       #catbigimg{
+        display: flex;
+        /* justify-content: space-between; */
+        /* margin-left:-100px */
+       /* width: %; */
+      
+    /* position: relative; */
+
+       }
+       #forchange{
+        width: 1500px;
+        /* border:1px solid red; */
+        margin:auto;
+        justify-content: center;
+        /* border: 1px solid rgb(23, 21, 19); */
+       }
+       #collection{
+        display: flex;
+        gap: 35px;
+        margin-left: 70px;
+       }
+       .AppOnly{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+       }
+       #swiper{
+        /* height:420px;
+        width:80%; */
+        /* width: 80%; */
+       padding-left:17px
+        
+       }
+       #fimage{
+        height:420px;
+        width:1150px ;
+        /* width:120%; */
+        
+       }
+       #deals{
+        display:flex;
+        gap:30px;
+        margin-left: 70px;
+       }
+       .sd{
+        /* border: 1px solid brown; */
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+       }
+       #new{
+        display:flex;
+        gap:30px;
+        margin-left: 70px;
+       }
+       .nd{
+        /* border:1px solid brown */
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+       }
+       #h1{
+        margin-left: 70px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+       }
+       #recommended{
+        display: flex;
+        width: 1550px;
+        margin: auto;
+        flex-wrap: wrap;
+        gap:25px;
+        justify-content: center;
+        /* border:1px solid blue; */
+       }
+       #recommended>div{
+        width: 350px;
+        margin-right: 1px;
+        /* border:1px solid red; */
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        display: flex;
+        flex-direction:wrap ;
+        flex-direction: column;
+       }
+       #recommended img{
+        width:100%;
+        height:80%;
+    }
+    #view{
+        margin-left: 48%;
+    }
+      
+       
+    </style>
+</head>
+<body >
+    <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+    <!-- navbar started -->
+   <nav id="navbar"></nav>
+     
+        <div id="forchange">
+        <div id="categ">
+            <div style="background-color: black ; color: white; width: 498px;">
+                <p id="p1">Category</p>
+            </div>
+            <div style="background-color: yellow; color:black; width: 690px; font-size: 26px;">
+            <p>SUPER DEALS</p>
+            </div>
+            <div style="background-color: yellow ; color:black; width: 690px; font-size: 26px;">
+            <p>APP ONLY</p>
+            </div>
+            <div style="background-color: yellow ; color:black; width: 690px; font-size: 26px;">
+            <p>NEW ARRIVAL</p>
+            </div>
+        </div>
+        <div id="catbigimg">
+            <div id="category">
+                <p class="namo">Consumer Electronics</p>
+                <p class="namo">Industrial & Scientific</p>
+                <p class="namo">Cell Phones & Accessories</p>
+                <p class="namo">Appliances</p>
+                <p class="namo">Outdoors, Fitness & Sports</p>
+                <p class="namo">Computers, Tablets & Office</p>
+                <p class="namo">Health & Personal Care</p>
+                <p class="namo">Home Improvement & Tools</p>
+                <p class="namo">Drones, Toys & Hobbies</p>
+                <p class="namo">Home & Garden</p>
+                <p class="namo">Motor & Car Electronics</p>
+                <p class="namo">Men's Fashion</p>
+                <p class="namo">Watches & Jewellery</p>
+                <p class="namo">Gearbest Promotion</p>
+            </div>
+            <div id="swiper">
+                <!-- <div> -->
+                <!-- <img id="fimage" src="https://uidesign.gbtcdn.com/GB/image/8823/ORTUR_1190X420_EN.jpg?queryFrom=soa" alt=""> -->
+                <img src="./Image coding/1.jpg" alt="" id="fimage">
+                <!-- </div> -->
+            
+            </div>
+            
+        </div>
+   </div>
+
+   <div id="dron">
+    <div>
+        <img src="https://uidesign.gbtcdn.com/GB/image/8823/L900-230X120-en.jpg" alt="">
+    </div>
+    <div>
+        <img src="https://uidesign.gbtcdn.com/GB/image/6874/230x120b_en.jpg" alt="">
+    </div>
+    <div>
+        <img src="https://uidesign.gbtcdn.com/GB/image/8823/C230X120-en.jpg" alt="">
+    </div>
+    <div>
+        <img src="https://uidesign.gbtcdn.com/GB/image/7257/230_120_en.jpg" alt="">
+    </div>
+    <div>
+        <img src="https://uidesign.gbtcdn.com/GB/image/6874/230x120b_en.jpg" alt="">
+    </div>
+   </div>
+
+
+
+   <div>
+    <h1 id="h1">COLLECTION</h1>
+        <div id="collection">
+            <div class="AppOnly">
+                <img src="https://gloimg.gbtcdn.com/soa/gb/item/6898341271098814464/16469/goods_thumb_220-v3/b5bb5866c021.jpg" alt="">
+            </div>
+            <div class="AppOnly">
+                <img src="https://gloimg.gbtcdn.com/soa/gb/item/6507287161137004544/16412/goods_thumb_220-v1/9301f01059aa.jpg" alt="">
+            </div>
+            <div class="AppOnly">
+                <img src="https://gloimg.gbtcdn.com/soa/gb/item/6878402251153666048/16516/goods_thumb_220-v3/ed5b844751b1.jpg" alt="">
+            </div>
+            <div class="AppOnly">
+                <img src="https://gloimg.gbtcdn.com/soa/gb/item/6900746726869757952/16492/goods_thumb_220-v7/b87b9802f084.jpg" alt="">
+            </div>
+            <div class="AppOnly">
+                <img src="https://gloimg.gbtcdn.com/soa/gb/store/6878399324569661440/16419/goods_thumb_220-v5/2bade2f7be7f.jpg" alt="">
+            </div>
+            <div class="AppOnly">
+                <img src="https://gloimg.gbtcdn.com/soa/gb/item/6899292126182567936/16466/goods_thumb_220-v1/5c46946213f9.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1 id="h1">SUPER DEALS</h1>
+        <div id="deals">
+            <div class="sd">
+                <img src="https://gloimg.gbtcdn.com/soa/gb/item/6870745450383863808/16538/goods_thumb_220-v1/1d662f23ff41.jpg"alt=""> 
+            </div>
+            <div class="sd">
+                <img src="https://gloimg.gbtcdn.com/soa/gb/item/6919674405698334720/16528/goods_thumb_220-v1/4194c0705ff9.jpg" alt="">
+            </div>
+            <div class="sd">
+                <img src="https://gloimg.gbtcdn.com/soa/gb/item/6883820374342168576/16499/goods_thumb_220-v5/6233d35f6f8a.jpg" alt="">
+            </div>
+            <div class="sd">
+                <img src="https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16424/goods_thumb_220-v1/186cd6966d5f.jpg" alt="">
+            </div>
+            <div class="sd">
+                <img src="https://gloimg.gbtcdn.com/soa/gb/item/6899301501118902272/16486/goods_thumb_220-v1/6a0fbd723c9d.jpg" alt="">
+            </div>
+            <div class="sd">
+                <img src="https://gloimg.gbtcdn.com/soa/gb/item/6878024886355423232/16459/goods_thumb_220-v1/f88842132727.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h1 id="h1">NEW</h1>
+        <div id="new">
+            <div class="nd">
+               <img src="https://uidesign.gbtcdn.com/GB/image/8823/MI+7.jpg" alt=""> 
+            </div>
+            <div class="nd">
+                <img src="https://gloimg.gbtcdn.com/soa/gb/item/6878025592978206720/16542/goods_thumb_220-v1/185db9573c5f.jpg" alt="">
+            </div>
+            <div class="nd">
+                <img src="https://gloimg.gbtcdn.com/soa/gb/item/6898654298117435392/16549/goods_thumb_220-v1/d87e35c0597d.jpg" alt="">
+            </div>
+            <div class="nd">
+                <img src="https://gloimg.gbtcdn.com/soa/gb/store/6878025592978206720/16550/goods_thumb_220-v1/b4a76d58b256.jpg" alt="">
+            </div>
+            <div class="nd">
+                <img src="https://gloimg.gbtcdn.com/soa/gb/item/6908377430696849408/16522/goods_thumb_220-v1/bad4da8f65a9.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <h1 id="h1">RECOMMENDED FOR YOU</h1>
+    <div id="recommended">
+    </div>
+     
+    <div id="view">
+        <h3>View More <i  class="fa-solid fa-angle-down"></i></h3>
+    </div>
+   
+</body>
+</html>
+<script type="module">
+
+  import {navbar} from "../coding3Project/components/navbar.js"
+  let n=document.getElementById("navbar")
+  n.innerHTML=navbar()
+   let rec_data=[
+        {
+            image:"https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16534/goods_img-v1/ed230b4b2700.jpg",
+            title:"Original Xiaomi Mi Band 7 / 7 NFC Smart Wristband 1.62 inch",
+            price:"$48"
+        },
+        {
+            image: "https://gloimg.gbtcdn.com/soa/gb/item/6926471294045319168/16529/goods_img-v1/8ad475fc01f3.jpg",
+            title: "WT09 Active Noise Cancelling Headphones Bluetooth 5.1",
+            price: "$19.05"
+        },
+        {
+            image: "https://gloimg.gbtcdn.com/soa/gb/item/6878400698325856256/16419/goods_img-v1/22549f61229b.jpg",
+            title: "Original Xiaomi Smart Magic Cube Bluetooth 3D Dynamic",
+            price: "$19.99"
+        },
+        {
+            image: "https://gloimg.gbtcdn.com/soa/gb/item/6898341271098814464/16469/goods_img-v1/126354806df6.jpg",
+            title: "Xiaomi PEN Mijia Super Durable Sign Pen 0.5mm MI Pen For",
+            price: "$2.59"
+        },
+        {
+            image: "https://gloimg.gbtcdn.com/soa/gb/item/6900386065325158400/16545/goods_img-v3/49bbbbea2c5b.jpg",
+            title: "Xiaomi Fan 2 Smart Standing double layer fan blade Portable",
+            price: "$69.99"
+        },
+        {
+            image: "https://gloimg.gbtcdn.com/soa/gb/item/6901174613791928320/16502/goods_img-v3/31d0d9d6c843.jpg",
+            title: "A9 Mini WiFi Video Surveillance 1080p HD Infrared Night Vision",
+            price: "$10.68"
+        },
+        {
+            image: "https://gloimg.gbtcdn.com/soa/gb/item/6900386065325158400/16519/goods_img-v1/ad5af71dbbf9.jpg",
+            title: "WalkingPad R2 Treadmill Smart APP LED Touch Panel Remote",
+            price: "$585"
+        },
+        {
+            image: "https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16488/goods_img-v5/b1790ebe72cd.jpg",
+            title: "Xiaomi Redmi Buds 3 Lite TWS Bluetooth 5.2 Earphone",
+            price: "$20.86"
+        },
+        {
+            image: "https://gloimg.gbtcdn.com/soa/gb/item/6898654298117435392/16531/goods_img-v1/ea9ddbe7643e.jpg",
+            title: "Xiaomi 2022 Bluetooth 5.0 Headsets Wireless Earphone",
+            price: "$10.90"
+        },
+        {   image:"https://gloimg.gbtcdn.com/soa/gb/item/6882688590640508928/16508/goods_img-v1/83e81faaf67b.jpg",
+            title:"V9 Wireless Bluetooth CSR V4.1 Headset Sports Headphone",
+            price:"$11.90",
+        },
+        {   image:"https://gloimg.gbtcdn.com/soa/gb/item/6771730315905003520/16456/goods_img-v1/937ce184d834.jpg",
+            title:"Midea S8+ Robot Vacuum Cleaner for Home Electrolysis",
+            price:"$1260.23",
+
+        },
+        {   image:"https://gloimg.gbtcdn.com/soa/gb/item/6898341271098814464/16465/goods_img-v1/8fc8853ff3b3.jpg",
+            title: "Xiaomi Redmi Airdots 3 TWS wireless Bluetooth 5.2",
+            price: "$19.90"
+
+        },]
+    console.log(rec_data)
+        var rec_div=document.getElementById("recommended")
+   function append_rec_data(rec_data){
+  
+     rec_data.forEach(function(e){
+           let smallDiv=document.createElement("div")
+           let Rec_image=document.createElement("img")
+           Rec_image.src=e.image
+           let Rec_title=document.createElement("p")
+           Rec_title.innerText=e.title
+           let Rec_price=document.createElement("h3")
+           Rec_price.innerText=e.price
+
+        smallDiv.append(Rec_image,Rec_title, Rec_price)
+        rec_div.append(smallDiv)
+        console.log("yes")
+     })
+   }
+   append_rec_data(rec_data)
+
+    
+
+function Interval1(){
+    document.getElementById("fimage").src="./Image coding/2.jpg"
+}
+    function Interval2() {
+        document.getElementById("fimage").src = "./Image coding/3.jpg"
+    }
+    function Interval3() {
+            document.getElementById("fimage").src = "./Image coding/4.jpg"
+        }
+        function Interval4() {
+                document.getElementById("fimage").src = "./Image coding/5.jpg"
+            }
+            function Interval5() {
+                    document.getElementById("fimage").src = "./Image coding/1.jpg"
+                }
+
+setInterval(Interval1,2000)
+setInterval(Interval2, 4000)
+setInterval(Interval3, 6000)
+setInterval(Interval4, 8000)
+setInterval(Interval5, 10000)
+</script>
+
+
+<script src="https://kit.fontawesome.com/e1c023c943.js" crossorigin="anonymous"></script>
+
