@@ -26,8 +26,8 @@ console.log(data)
        
      }
      
-        alert("Either email or password is incorrect")
-        return
+        // alert("Either email or password is incorrect")
+        // return
 
 }
 
