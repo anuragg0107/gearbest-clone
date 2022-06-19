@@ -25,7 +25,7 @@ JavaScript, HTML5, CSS3
 <a href="https://github.com/Samsursekh">Samsur Sekh  </a></br>
 <a href="https://github.com/Deep579007">Deepak Gedam</a></br>
 <a href="https://github.com/sahtejkumar">Sahtej Kumar</a></br>
-<a href="https://github.com/anuraggupta">Anurag Gupta</a>
+<a href="https://github.com/anuragg0107">Anurag Gupta</a>
 
 
 ## Screenshots
